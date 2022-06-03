@@ -1,0 +1,53 @@
+// fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+/* Padronização de página */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+// body background
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top right,#2F2325, #8E5D52);
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    height: 10vh;
+    border-bottom: 1px solid #FFF2E7;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 100%;
+}
+
+footer{
+    border-top: 0.4px solid #FFF2E7;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    margin-top: 2rem;
+}
+
+footer #balleriniFooter img{
+    height: 3rem;
+}

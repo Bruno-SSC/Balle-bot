@@ -1,0 +1,16 @@
+
+
+header #menuHeader nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+header #menuHeader nav ul li{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-size: 1rem;
+}
+
+header #logoHeader img{
+    height: 3rem;
+}

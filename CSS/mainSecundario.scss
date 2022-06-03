@@ -1,0 +1,36 @@
+
+#divMainSecundaria{
+    display: flex;
+    justify-content: center;
+}
+
+#listMain{
+    margin-top: 1   rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#listMain h3{
+    padding: 3rem 0rem 1rem 0rem;
+    border-top: 0.4px solid #FFF2E7;
+    font-family: 'Righteous';
+    color: #FFF2E7;
+}
+
+#listMain ol{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+}
+
+#listMain ol li{
+    margin: 0.5rem;
+    list-style: decimal;
+}
+
+#listMain ol strong{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+}
