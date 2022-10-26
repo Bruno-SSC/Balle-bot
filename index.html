@@ -1,105 +1,68 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+    <head>
+        <!-- Metas -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- styles -->
+        <link rel="icon" href="./styles/assets/logo.png">
+        <link rel="stylesheet" href="./styles/styles.css">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BalleBot</title>
-    <link rel="stylesheet" href="./dist/CSS/style.css">
-</head>
-
-<body>
-
-    <!-- Begin of the header -->
-
-    <header>
-
-        <!-- Section 1 -->
-
-        <section id="logoHeader">
-
-            <img src="./CSS/assets/logo.png" alt="logo ballerini">
-
-        </section>
-
-        <!-- Section 2 -->
-
-        <section id="menuHeader">
-
-            <nav>
-                <ul>
-                    <li>Comunidade</li>
-                    <li>Tutorial</li>
-                    <li>OpenSource</li>
-                    <li>Comandos</li>
-                </ul>
-            </nav>
-
-        </section>
-
-        <!-- end of the header -->
-
-    </header>
-
-    <!-- begin of the main -->
-
-    <main>
-
-        <div id="divMainPrimaria">
-
-            <!-- Section 1 -->
-
-            <section id="titleMain">
-
-                <h1>Balle bot</h1>
-                <p>Deixe a sua comunidade segura de um jeito fácil</p>
-                <button>Me adicione!</button>
-
+        <!-- Title -->
+        <title> BalleBot </title>
+    </head>
+    <body>
+        <header>
+            <section class="header-container">
+                <div class="logo">
+                    <img src="./styles/assets/logo.png" alt="logo ballerini">
+                </div>
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <li>Comunidade</li>
+                            <li>Tutorial</li>
+                            <li>OpenSource</li>
+                            <li>Comandos</li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section class="main-container">
+                <div class="title">
+                    <h1>Balle bot</h1>
+                    <p>Deixe a sua comunidade segura de um jeito fácil</p>
+                    <button>Me adicione!</button>
+                </div>
+                <div class="image">
+                    <img src="./styles/assets/bot.png" alt="bot-image">
+                </div>
             </section>
 
-            <!-- Section 2 -->
-
-            <section id="imageBotMain">
-
-                <img src="./CSS/assets/bot.png" alt="">
-
+            <section class="bot-features">
+                <div class="list">
+                    <h3> O que ela faz por você? </h3>
+                    <ol>
+                        <li> Cria um <strong>sistema de verificação capcha</strong>
+                            para novos membros garantirem que não são robôs
+                        </li>
+                        <li> Possui um <strong>sistema de banimento automático</strong>
+                            para links suspeitos que forem enviados na
+                            comunidade
+                        </li>
+                        <li> <strong>Sistema de avisos e banimento manual</strong>,
+                            para pessoas administradoras utilizarem </li>
+                    </ol>
+                </div>
             </section>
 
-        </div>
-
-        <div id="divMainSecundaria">
-
-            <!-- Section 1 -->
-
-            <section id="listMain">
-
-                <h3> O que ela faz por você? </h3>
-                <ol>
-                    <li> Cria um <strong>sistema de verificação capcha</strong> para novos membros garantirem que não são robôs </li>
-                    <li> Possui um <strong>sistema de banimento automático</strong> para links suspeitos que forem enviados na comunidade
-                    </li>
-                    <li> <strong>Sistema de avisos e banimento manual</strong>, para pessoas administradoras utilizarem </li>
-                </ol>
-
+        </main>
+        <footer>
+            <section class="footer-container">
+                <img src="./styles/assets/BALLERINI.svg" alt="">
             </section>
-
-        </div>
-
-        <!-- end of the main -->
-
-    </main>
-
-    <!-- begin of the footer -->
-
-    <footer>
-
-        <!-- section 1 -->
-        <section id="balleriniFooter">
-            <img src="./CSS/assets/BALLERINI.svg" alt="">
-        </section>
-
-    </footer>
-
-</body>
-
+        </footer>
+    </body>
 </html>
