@@ -1,14 +1,16 @@
-<h1 align="center"> Balle bot 💻 </h1>
+<h1 align="center"> Balle Bot 💻 </h1>
 
 ## Briefing 📄
 
 Website para um bot do discord proposto por Rafaela Ballerini.
 
+> [Acessar](https://disc-bot.netlify.app)
+
 O link para a comunidade da Rafaela para mais detalhes sobre o trabalho dela:
 
 > [discord](https://discord.gg/ballerini)
 
-<h2 align="left"> Objetivos 📌 </h2>
+<h2 align="left"> Objetivo 📌 </h2>
 
 - Melhorar skills como front-end developer
 
@@ -16,7 +18,9 @@ O link para a comunidade da Rafaela para mais detalhes sobre o trabalho dela:
 
 <h3 align="center"> HOME 📷 </h3>
 
-<div><img src="./styles/assets/showcase.png"></div>
+<div align="center">
+<img  height="300em" width="auto" src="./styles/assets/showcase.png">
+</div>
 
 <h3 align="center"> Tecnologias utilizadas 🤖 </h3>
 
